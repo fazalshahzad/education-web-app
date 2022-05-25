@@ -7,6 +7,7 @@ import { ElementsComponent } from './elements/elements.component';
 import { HomeComponent } from './home/home.component';
 import { NewsPostComponent } from './news-post/news-post.component';
 import { NewsComponent } from './news/news.component';
+import { TeacherComponent } from './teacher/teacher.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path: 'courses', component: CoursesComponent },
   { path: 'elements', component: ElementsComponent },
   { path: 'news', component: NewsComponent },
-  { path: 'newspost', component: NewsPostComponent }
+  { path: 'newspost', component: NewsPostComponent },
+  { path: 'teacher', component:TeacherComponent }
 
 
 ];
